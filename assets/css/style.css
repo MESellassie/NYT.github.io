@@ -1,0 +1,29 @@
+.jumbotron {
+    background-color: white;
+}
+.header {
+    border: solid 1px rgb(37, 45, 117);
+    background-color: rgb(37, 45, 117);
+    color: white;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    height: 180px;
+    padding-top: 35px;
+    /* width:  */
+}
+
+.search-card {
+    border: solid 1px darkgray;
+}
+
+.searchTerm {
+    color: white;
+}
+.card-header {
+    background-color: darkgray;
+}
+
+.article-card {
+    border: solid 1px darkgray;
+    
+}

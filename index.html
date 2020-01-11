@@ -8,7 +8,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script defer src="assets/js/script.js"></script>
-    <link rel = "stylesheet" href= "assets/css/style.css"></link>
+
+    <script
+   defer src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    </link>
 
     <title>NY Times</title>
 
@@ -33,7 +40,7 @@
                                     <div class="form-row">
                                         <div class="form-group">
                                             <label for="searchTerm">Search Term</label>
-                                            <input type="text" class="form-control" id="inputAddress2">
+                                            <input type="text" class="form-control" id="inputAddress2" placeholder="Teddy Roosevelt">
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -45,19 +52,22 @@
                                     </div>
                                     <div class="form-group">
                                         <label for="inputAddress2">Start Year (Optional):</label>
-                                        <input type="text" class="form-control" id="inputAddress2">
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="1925">
                                     </div>
                                     <div class="form-group">
                                         <label for="inputAddress2">End Year (Optional):</label>
-                                        <input type="text" class="form-control" id="inputAddress2">
+                                        <input type="text" class="form-control" id="inputAddress2" placeholder="1935">
                                     </div>
+                                    <button type="submit" class="btn btn-primary">Search</button>
+                                    <button type="submit" class="btn btn-primary">Clear Results</button>
+                                    <br>
                             </div>
-                            <button type="submit" class="btn btn-primary">Search</button>
-                            <button type="submit" class="btn btn-primary">Clear Results</button>
+
                             </form>
                         </div>
-                    </div>
                     <br>
+                    <br>
+
                     <div class="article-card">
                         <div class="card-header">
                             Top Articles
@@ -83,6 +93,8 @@
                     </div>
                 </div>
             </div>
+        </div>
+
             <hr>
 </body>
 
